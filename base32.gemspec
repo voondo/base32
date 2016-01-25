@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.summary = 'Ruby extension for base32 encoding and decoding'
   s.licenses    = ['MIT']
 
-  s.files         = ["CHANGELOG.md", "Gemfile", "LICENSE", "README", "README.md", "Rakefile", "base32.gemspec", "config/environment.rb", "lib/base32.rb", "lib/version.rb", "test/base32_test.rb"]
+  s.files         = ["CHANGELOG.md", "Gemfile", "LICENSE", "README.md", "Rakefile", "base32.gemspec", "config/environment.rb", "lib/base32.rb", "lib/version.rb", "test/base32_test.rb"]
   s.executables   = s.files.grep(%r{^bin/}) { |f| File.basename(f) }
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ['lib']
